@@ -122,6 +122,11 @@ article.preview p.readmore {
   font-weight: 400;
 }
 /* === Header === */
+header#site-head {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
 #blog-logo {
   display: block;
   max-width: 100px;
@@ -144,7 +149,7 @@ h2.blog-description {
 h1.blog-title {
   font-size: 50px;
   line-height: 52px;
-  margin-top: 80px;
+  /*margin-top: 80px;*/
   margin-bottom: 5px;
   padding: 0;
 }
@@ -152,7 +157,7 @@ h1.blog-subtitle {
   font-size: 26px;
   line-height: 32px;
   margin-top: -8px;
-  margin-bottom: 85px;
+  /*margin-bottom: 85px;*/
   margin-left: 1px;
   padding: 0;
 }
